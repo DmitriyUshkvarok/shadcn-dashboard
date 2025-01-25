@@ -50,7 +50,7 @@ const DashBoardSidebar = ({ className }: { className?: string }) => {
       >
         <SidebarGroup>
           <SidebarGroupLabel>
-            <header className="hidden md:block border-b dark:border-b-black border-b-zinc-300 pb-4">
+            <header className="hidden md:block border-b dark:border-b-black border-b-zinc-300 pb-4 mb-2">
               <MenuTitle />
             </header>
           </SidebarGroupLabel>
