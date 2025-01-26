@@ -18,8 +18,8 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from '@/components/ui/tooltip';
-// import TeamDistributionChart from './team-distribution-chart';
-// import SupportTicketsResolved from './support-tickets-resolved';
+import TeamDistributionChart from './team-distribution-chart';
+import SupportTicketsResolved from './support-tickets-resolved';
 
 const teamLeaders = [
   {
@@ -77,7 +77,7 @@ export default function TeamsStats() {
               <div className="text-5xl font-bold">8</div>
             </div>
             <div>
-              <Button size="lg" asChild>
+              <Button size="xs" asChild>
                 <Link href="/dashboard/teams">View all</Link>
               </Button>
             </div>
@@ -127,7 +127,7 @@ export default function TeamsStats() {
             </CardTitle>
           </CardHeader>
           <CardContent className="pb-0">
-            {/* <TeamDistributionChart /> */}
+            <TeamDistributionChart />
           </CardContent>
         </Card>
       </div>
@@ -139,7 +139,7 @@ export default function TeamsStats() {
           </CardTitle>
         </CardHeader>
         <CardContent className="pl-0">
-          {/* <SupportTicketsResolved /> */}
+          <SupportTicketsResolved />
         </CardContent>
       </Card>
     </>
