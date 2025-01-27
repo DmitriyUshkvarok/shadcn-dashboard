@@ -4,7 +4,7 @@ import {
   Drawer,
   DrawerClose,
   DrawerContent,
-  // DrawerDescription,
+  DrawerDescription,
   DrawerFooter,
   DrawerHeader,
   DrawerTitle,
@@ -54,9 +54,9 @@ export default function DashboardLayout({
                   <DrawerTitle>
                     <MenuTitle />
                   </DrawerTitle>
-                  {/* <DrawerDescription>
+                  <DrawerDescription>
                     This is Mobiile Sidebar.
-                  </DrawerDescription> */}
+                  </DrawerDescription>
                 </DrawerHeader>
                 <ul className="py-4 grow">
                   {items.map((item) => {
